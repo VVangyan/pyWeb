@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <meta charset="UTF-8">
+    <title>user</title>
+
+</head>
+<body>
+{% comment %}此reg处为别名{% endcomment %}
+<form action="{% url 'reg' %}" method="post">
+    用户名:<input type="text" name="username"><br>
+    年龄:<input type="text" name="age"><br>
+    <input type="submit" value="提交">
+</form>
+</body>
+</html>
