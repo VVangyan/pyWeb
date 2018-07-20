@@ -22,4 +22,5 @@ urlpatterns = [
     url('index', views.index),
     url('hello', views.hello),
     url('user', views.user ,name="reg"),#name 在此处为别名
+    url('', views.login),#name 在此处为别名
 ]
